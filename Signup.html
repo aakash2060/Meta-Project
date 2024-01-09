@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Papa's Pizza</title>
+    <meta property="og:title" content="Papa' Pizza Posted their Menu" />
+    <meta property="og: type" content="website" />
+    <meta property="og:image" content="logo.jpg" />
+    <meta property="og:url" content="http://127.0.0.1:3000/Blog.html" />
+    <meta
+      property="og:descripton"
+      content="This is a website for Papa's pizza where the menu is updated everyday"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Papa's Pizza" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body align="center">
+    <header><h1>Papa's Pizza</h1></header>
+    <header><img src="logo.jpg" height="150px" width="200px" /></header>
+    <nav>
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="location.html">location</a>
+        <a href="blog.html">Blog</a>
+      </ul>
+    </nav>
+        <main>
+            <h1>Sign Up</h1>
+            <form>
+              <div>
+                  <label for="user_first_name">First Name</label> <br>  
+                <input type="text" id="user_first_name" name="user_first_name" />
+              </div>
+              <div>
+                <label for="user_last_name">Last Name</label><br>
+                <input type="text" id="user_last_name" name="user_last_name" />
+              </div>
+              <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="user_email" name="user_email" />
+              </div>
+              <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="user_password" name="user_password" required minlength ="5"/>
+              </div>
+              <div>
+                  <label for="confirm_password">Confirm Password</label><br>
+                  <input type="password" id="confirm_password" name="confirm_password" required minlength="5"/>
+              </div>
+              <div>
+                  <br><button type="submit">Sign Up</button>
+              </div>
+            </form>
+          </main>
+    <footer>
+      <p>Copyright by Papa's Pizza  © </p>
+    </footer>
+  </body>
+</html>
+

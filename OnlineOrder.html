@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Papa's Pizza</title>
+    <meta property="og:title" content="Papa' Pizza Posted their Menu" />
+    <meta property="og: type" content="website" />
+    <meta property="og:image" content="logo.jpg" />
+    <meta property="og:url" content="http://127.0.0.1:3000/Blog.html" />
+    <meta
+      property="og:descripton"
+      content="This is a website for Papa's pizza where the menu is updated everyday"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Papa's Pizza" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body align="center">
+    <h1>Papa's Pizza</h1>
+    <header><img src="logo.jpg" height="150px" width="200px" /></header>
+    <nav>
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="OnlineOrder.html">Order Online</a>
+        <a href="blog.html">Blog</a>
+      </ul>
+    </nav>
+    <main>
+      <h3>Online Order</h3>
+      <form method="post">
+        <fieldset id="size">
+          <label>
+            <input type="radio" value="2" name="size" /> Large Size Pizza
+          </label>
+          <label>
+            <input type="radio" value="1" name="size" /> Medium Size Pizza
+          </label>
+          <label>
+            <input type="radio" value="0" name="size" /> Small Size Pizza
+          </label>
+        </fieldset>
+        <fieldset id="toppings">
+          <label
+            ><input type="radio" value="0" name="toppings" />Mushroom
+            toppings</labelff>
+          <label
+            ><input type="radio" value="1" name="toppings" />Chicken
+            toppings</label>
+          <label
+            ><input type="radio" value="2" name="toppings" />Halepino
+            toppings</label>
+          <label
+            ><input type="radio" value="3" name="toppings" />Pineapple
+            toppings</label>
+        </fieldset>
+        <button type="submit">Place Order</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright by Papa's Pizza  © </p>
+    </footer>
+  </body>
+</html>
